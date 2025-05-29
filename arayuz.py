@@ -11,7 +11,7 @@ from datetime import datetime
 class SirketOtomasyon(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Alas  OFFİCE")
+        self.setWindowTitle("Alas  Şirket")
         self.setGeometry(200, 200, 600, 400)
         self.init_ui()
 
@@ -22,7 +22,7 @@ class SirketOtomasyon(QMainWindow):
         self.layout = QVBoxLayout()
         self.central_widget.setLayout(self.layout)
 
-        self.title_label = QLabel("Özkan Yazılım Otomasyonu")
+        self.title_label = QLabel("Alas Şirket")
         self.title_label.setFont(QFont("Arial", 16, QFont.Bold))
         self.title_label.setAlignment(Qt.AlignCenter)
         self.layout.addWidget(self.title_label)
